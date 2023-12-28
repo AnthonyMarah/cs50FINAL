@@ -1,0 +1,392 @@
+body {
+  background-image: url(background.png);
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+
+@font-face {
+  font-family: GreatVibes;
+  src:url(GreatVibes.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'skeina'; 
+  src: url(skeina.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'amethyst'; 
+  src: url(amethyst.ttf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+header {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 40px;
+  background: linear-gradient(45deg, rgb(84, 219, 183), rgb(170, 40, 202) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s infinite linear;
+  margin-bottom: -55px;
+}
+
+.h1INDEX {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 50px;
+  color:rgb(170, 40, 204);
+  margin: 0;
+  margin-right: 130px;
+}
+
+.h1v3 {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 50px;
+  color:rgb(170, 40, 204);
+}
+
+.h1v6 {
+  font-family:'skeina';
+  text-align: center;
+  font-size: 20px;
+  color:rgb(170, 40, 204);
+}
+
+.h1v4 {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 60px;
+  color:rgb(84, 219, 183);
+}
+
+.h1v7 {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 60px;
+  color:rgb(170, 40, 204);
+}
+
+.h1v5 {
+  font-family:'skeina';
+  text-align: center;
+  font-size: 20px;
+  color:rgb(84, 219, 183);
+}
+
+.h1 {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(45deg, rgb(219, 84, 190), rgb(170, 40, 202) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s infinite linear;
+}
+
+
+
+.h1v2 {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 50px;
+  background: rgb(49, 55, 59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s infinite linear;
+}
+
+.h3v2 {
+  font-family:'GreatVibes';
+  text-align: center;
+  font-size: 40px;
+  background: rgb(49, 55, 59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s infinite linear;
+}
+
+.navbar {
+  background-color: #33333300;
+  font-family: 'GreatVibes';
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  padding: 2.5px 5px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: rgba(188, 118, 205, 0.007);
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(148, 73, 73, 0.2); 
+  margin-right: 20px
+}
+
+.nav-item:last-child {
+  margin-right: 0; 
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: rgb(84, 219, 183);
+}
+
+.nav-item img {
+  width: 30px; 
+  height: auto; 
+}
+
+.nav-img {
+  width: 30px;
+  height: auto;
+}
+
+.nav-item a:hover {
+  color:fuchsia; 
+}
+
+
+.main-bg {
+  background-color: rgba(84, 219, 183, 0.849); 
+  padding: 10px; 
+  border-radius: 20px;
+  font-family: 'skeina';
+  color: rgb(49, 55, 59);
+}
+
+.main-bg2 {
+  background-color: rgba(84, 219, 183, 0.849); 
+  padding: 10px; 
+  border-radius: 20px;
+  font-family: 'skeina';
+  color: rgb(49, 55, 59);
+  text-align: center;
+}
+
+
+.index-bg{
+  background-color: rgba(84, 219, 183, 0.849); 
+  padding: 10px; 
+  border-radius: 30px;
+  font-family: 'skeina';
+  color: rgb(170, 40, 202);
+  font-size: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.index2-bg{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+}
+
+.ai-bg {
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(6, 216, 160), white, rgb(164, 15, 201) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.second-bg {
+padding: 10px; 
+border-radius: 20px;
+background-color: rgba(188, 118, 205, .9);
+font-family: "skeina";
+color: rgb(49, 55, 59);
+}
+
+.third-bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(188, 118, 205, 0.9);
+  font-family: "skeina";
+  color: rgb(49, 55, 59)
+  }
+
+
+.Kates-pic {
+  width: 750px;
+  height: auto;
+  overflow: hidden; 
+  border-radius: 200px; 
+}
+
+.modalities {
+  width: 100px;
+  height: auto;
+  border-radius: 30px
+}
+
+.images-container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.services li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.services li a {
+  color: inherit;
+  text-decoration:rgba(188, 118, 205, .75)
+}
+
+.services li a:hover {
+  color:fuchsia; 
+}
+
+.products2 {
+  list-style: none;
+}
+
+.product-item2 {
+  border-bottom: 
+  1px solid rgb(23, 83, 124);
+}
+
+.products2 li a {
+  color: inherit;
+}
+
+.products {
+  list-style: none;
+}
+
+.products-item {
+  border-bottom:
+  1px solid rgb(49, 55, 59);
+}
+
+.products li a {
+  color: inherit;
+}
+
+.legal {
+  width: 50%; 
+  height: 400px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.legaltext-container {
+  width: 50%; 
+  padding: 0 20px; 
+}
+
+.kates-pic2 {
+  width: 50%; 
+  height: 400px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.abouttext-container {
+  width:50%;
+  padding: 20px;
+  
+}
+
+.main-bgflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(84, 219, 183, 0.849); 
+  padding: 10px; 
+  border-radius: 20px;
+  font-family: 'skeina';
+  color: rgb(49, 55, 59);
+}
+
+.placements{
+  text-align: center;
+}
+
+.placements li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.placements li a {
+  color: inherit;
+  text-decoration:rgba(188, 118, 205, .75)
+}
+
+
+.certifications {
+  width: 750px;
+  height:auto;
+  align-items: center;
+  border-bottom: 1px;
+}
+
+.placements-h3 {
+  font-family: "skeina";
+  color: rgb(49, 55, 59);
+  text-align: center;
+  font-size: 30px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container button {
+  display: block;
+  margin: 30px auto;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: 'GreatVibes';
+  color: rgb(84, 219, 183);
+  background-color: rgba(64, 67, 85, 0.637);
+}
